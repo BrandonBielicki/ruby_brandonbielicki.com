@@ -3,9 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-	margin: 0px;
+	margin-top: 0px;
 	padding: 0px;
 	//height: 2000px;
+    background-color: #eaeaea;
 }
 a:visited {
 	color: grey;
@@ -28,6 +29,9 @@ p {
 	margin-right: auto;
 	min-width: 325px;
     width: 960px;
+    box-shadow: -10px 10px 5px ;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 /*
@@ -128,7 +132,6 @@ p {
 	background-size: 100%;
 	background-image: asset_url("eye.jpg");
 	background-position: center;
-	margin-top: 50px;
 }
 
 #top-content p,h1{
@@ -195,19 +198,20 @@ p {
 # Main
 ##################################################
 */
+
+#main-body {
+    //padding-top: 50px;
+}
 #resume-container {
 	max-width: 960px;
 	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: -5px -5px 5px ;
-	
+	//box-shadow: -5px -5px 5px ;
+    background-color: #ffffff;	
 }
 #resume-img {
 	width: 100%;
-	box-shadow: 5px 5px 5px;
 	border: 1px solid black;
 	padding: 10px;
 }

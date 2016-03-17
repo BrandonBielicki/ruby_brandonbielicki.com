@@ -3,20 +3,12 @@
 <% end %>
 
 <% content_for :top do %>  
-  <h1 id="large-header">My Resume</h1>
-  <p id="small-header">Print it out, put it on your fridge</p>
-  <div id="header-buttons">
-      <ul>
-          <li>
-              <%= link_to '<div><p>ABOUT</p></div>'.html_safe, about_path %>
-          </li>
-          <li>
-              <%= link_to '<div><p>CONTACT</p></div>'.html_safe, contact_path %>
-          </li>
-      </ul>
-  </div>  
+   
 <% end %>
 
 <% content_for :main do %>
-    
+
+    <div id="resume-container">
+		<img id="resume-img" src="<%= asset_url("BrandonBielickiResume.jpg") %>">
+	</div>    
 <% end %>

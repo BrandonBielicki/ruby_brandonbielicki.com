@@ -2,19 +2,23 @@
     <title>About</title>
 <% end %>
 
-<% content_for :top do %>  
-  <h1 id="large-header">Brandon Bielicki</h1>
-  <p id="small-header">Programmer, Web Developer</p>
-  <div id="header-buttons">
-      <ul>
-          <li>
-              <%= link_to '<div><p>CONTACT</p></div>'.html_safe, contact_path %>
-          </li>
-          <li>
-              <%= link_to '<div><p>RESUME</p></div>'.html_safe, resume_path %>
-          </li>
-      </ul>
-  </div>  
+<% content_for :top do %>
+  <div id="top">
+      <div id="top-content">
+          <h1 id="large-header">Brandon Bielicki</h1>
+          <p id="small-header">Programmer, Web Developer</p>
+          <div id="header-buttons">
+              <ul>
+                  <li>
+                      <%= link_to '<div><p>CONTACT</p></div>'.html_safe, contact_path %>
+                  </li>
+                  <li>
+                      <%= link_to '<div><p>RESUME</p></div>'.html_safe, resume_path %>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
 <% end %>
 
 <% content_for :main do %>
