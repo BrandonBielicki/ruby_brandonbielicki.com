@@ -1,0 +1,253 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	//height: 2000px;
+}
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 325px;
+    width: 960px;
+}
+
+/*
+##################################################
+# Nav Bar
+##################################################
+*/
+
+
+
+#social {
+	float: left;
+	display: inline;
+	line-height:50px;
+	padding-left: 0px;
+	list-style-type: none;
+	margin: 0px;
+	margin-right: 10px;
+}
+#social li {
+	display: inline;
+	font-size: 30px;
+}
+#nav-menu {
+	float: right;
+	list-style-type: none;
+}
+#nav-menu li {
+	display: inline;
+}
+
+.nav-right {
+	font-size: 20px;
+	margin: 0px;
+	float: right;
+	line-height: 50px; 
+	padding-right: 15px;
+	padding-left: 15px;
+	/*visibility: hidden; */
+}
+#menu-icon {
+	visibility: hidden;
+	font-size: 30px;
+	margin: 0px;
+	line-height:50px;
+
+}
+.nav-unselected:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-selected {
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.nav-selected a:hover{
+	color: #000000;
+}
+#nav-container {
+	position: fixed;
+	height: 50px;
+	top: 0;
+	//width: 100%;
+	width: 960px;;
+	background-color: Black;
+	border-bottom: 1px solid white;
+}
+#nav-bar {
+	
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	height: 50px;
+	
+	z-index: 100;
+	min-width: 310px;
+}
+
+#home {
+	font-size: 26px;
+	margin: 0px;
+	float: left;
+	line-height: 50px; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*
+##################################################
+# Header
+##################################################
+*/
+
+#top {
+	width: 100%;
+	height: 250px;
+	background-size: 100%;
+	background-image: asset_url("eye.jpg");
+	background-position: center;
+	margin-top: 50px;
+}
+
+#top-content p,h1{
+	color: white;
+}
+#top-content {
+	padding-top: 40px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+
+#small-header {
+	font-size: 1.5em;
+	font-style: italic;
+	margin: 0px;
+	padding: 0px;
+}
+#large-header {
+	font-size: 5em;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header-buttons {
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+#header-buttons > ul {
+	padding: 0px;
+	display: inline;
+	list-style-type: none;
+}
+#header-buttons  li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#header-buttons  div {
+	height: 50px;
+	width: 100px;
+	border: 2px solid white;
+	transition-property: background-color;
+	transition-duration: .1s;
+}
+#header-buttons div:hover {
+	transition-property: background-color;
+	transition-duration: .1s;
+	background-color: white;
+}
+#header-buttons div:hover p {
+	color: black;
+}
+#header-buttons > ul > li > a:visited {
+	text-decoration: none;
+}
+
+/*
+##################################################
+# Main
+##################################################
+*/
+#resume-container {
+	max-width: 960px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: -5px -5px 5px ;
+	
+}
+#resume-img {
+	width: 100%;
+	box-shadow: 5px 5px 5px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/*
+##################################################
+# Footer
+##################################################
+*/
+
+#footer-social{
+	height: 100px;
+	background-color: #191919;
+}
+#nav-centered {
+	text-align: center;
+}
+#footer-social ul {
+	padding: 0px;
+	display: inline;
+	line-height:100px;
+	list-style-type: none;
+	margin: 0px;
+}
+#footer-social li {
+	padding-left: 2px;
+	padding-right: 2px;
+	display: inline;
+	font-size: 30px;
+}
+
+#footer {
+	background-color: #121212;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 0px;
+}
+
+#signature {
+    background-color: #121212;
+}
