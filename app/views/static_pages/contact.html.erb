@@ -1,2 +1,22 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<% content_for :title do %>
+    <title>Contact</title>
+<% end %>
+
+<% content_for :top do %>  
+  <h1 id="large-header">Talk to me</h1>
+  <p id="small-header">Send me a fax or page my buzzer</p>
+  <div id="header-buttons">
+      <ul>
+          <li>
+              <%= link_to '<div><p>ABOUT</p></div>'.html_safe, about_path %>
+          </li>
+          <li>
+              <%= link_to '<div><p>RESUME</p></div>'.html_safe, resume_path %>
+          </li>
+      </ul>
+  </div>  
+<% end %>
+
+<% content_for :main do %>
+    
+<% end %>

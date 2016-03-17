@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'static_pages#about'
+  get '/about' => 'static_pages#about'
   get '/contact' => 'static_pages#contact'
   get '/resume' => 'static_pages#resume'
   get '/cata' => 'static_pages#cata'

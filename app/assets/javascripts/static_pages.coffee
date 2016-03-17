@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$ ->
+ready = ->
   page = $("title").text();
   $(".nav-right").removeClass("nav-selected");
   $(".nav-right").addClass("nav-unselected");
@@ -28,4 +28,5 @@ $ ->
       $(".nav-right").css("visibility", "hidden");
       $("#nav-menu").css("background-color", "transparent");
 		
-
+$(document).ready(ready)
+$(document).on('page:load', ready)
