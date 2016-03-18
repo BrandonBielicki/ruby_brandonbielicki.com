@@ -23,10 +23,16 @@ ready = ->
   $("#menu-icon").click ->
     if $(".nav-right").css("visibility") == "hidden" 
       $(".nav-right").css("visibility", "visible");
-      $("#nav-menu").css("background-color", "white");	
+      $("#nav-menu").css("background-color", "white");
+      $("#nav-menu").css("border", "1px solid black");
+      $("#nav-menu").css("border-radius", "10px");
+      $("#nav-menu").css("box-shadow", "-10px 10px 5px");
     else
       $(".nav-right").css("visibility", "hidden");
       $("#nav-menu").css("background-color", "transparent");
+      $("#nav-menu").css("border", "none");
+      $("#nav-menu").css("border-radius", "10px");
+      $("#nav-menu").css("box-shadow", "0px 0px 0px");
 		
 $(document).ready(ready)
 $(document).on('page:load', ready)

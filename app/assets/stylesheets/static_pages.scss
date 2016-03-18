@@ -28,7 +28,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 325px;
-    width: 960px;
+    max-width: 960px;
     box-shadow: -10px 10px 5px ;
     margin-bottom: 50px;
     padding-top: 50px;
@@ -95,8 +95,8 @@ p {
 	position: fixed;
 	height: 50px;
 	top: 0;
-	//width: 100%;
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	background-color: Black;
 	border-bottom: 1px solid white;
 }
@@ -106,7 +106,7 @@ p {
 	margin-right: auto;
 	max-width: 960px;
 	height: 50px;
-	
+	width: 100%;
 	z-index: 100;
 	min-width: 310px;
 }
@@ -207,7 +207,6 @@ p {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	//box-shadow: -5px -5px 5px ;
     background-color: #ffffff;	
 }
 #resume-img {
@@ -254,4 +253,59 @@ p {
 
 #signature {
     background-color: #121212;
+}
+
+/*
+##################################################
+# Responsive
+##################################################
+*/
+
+@media (max-width: 700px) {
+	#menu-icon {
+		visibility: visible;
+		float: right;
+		margin-right: 15px;
+	}
+	
+	.nav-right {
+		visibility: hidden;
+	}
+	
+	#nav-menu {
+		clear: both;
+		list-style-type: none;
+		padding: 0px;
+	}
+	#nav-menu li {
+		display: block;
+	}
+	.nav-unselected:hover {
+		color: grey;
+		text-decoration: none;
+	}
+    
+    
+    #nav-bar {
+        width: 100%;
+    }
+    
+    #nav-menu {
+        border-radius: 10px;
+    }
+    
+    #container {
+        box-shadow: 0px 0px 0px ;
+    }
+    
+	#top {
+		height: 250px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}	
+}
+
+@media (max-width: 800px) {
+    	
 }
