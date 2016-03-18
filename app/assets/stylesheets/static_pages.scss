@@ -84,6 +84,11 @@ p {
 	text-decoration: none;
 }
 
+.icon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .nav-selected {
 	border-radius: 10px;
 	background-color: #ffffff;
@@ -242,10 +247,6 @@ p {
 	font-size: 30px;
 }
 
-#footer {
-	background-color: #121212;
-}
-
 #footer p {
 	margin: 0px;
 	padding: 0px;
@@ -255,57 +256,4 @@ p {
     background-color: #121212;
 }
 
-/*
-##################################################
-# Responsive
-##################################################
-*/
 
-@media (max-width: 700px) {
-	#menu-icon {
-		visibility: visible;
-		float: right;
-		margin-right: 15px;
-	}
-	
-	.nav-right {
-		visibility: hidden;
-	}
-	
-	#nav-menu {
-		clear: both;
-		list-style-type: none;
-		padding: 0px;
-	}
-	#nav-menu li {
-		display: block;
-	}
-	.nav-unselected:hover {
-		color: grey;
-		text-decoration: none;
-	}
-    
-    
-    #nav-bar {
-        width: 100%;
-    }
-    
-    #nav-menu {
-        border-radius: 10px;
-    }
-    
-    #container {
-        box-shadow: 0px 0px 0px ;
-    }
-    
-	#top {
-		height: 250px;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-	}	
-}
-
-@media (max-width: 800px) {
-    	
-}
