@@ -2,11 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@font-face {
+  font-family: 'Texgyrebonum-reg';
+  src: asset_url("texgyrebonum-regular.otf") format("truetype");
+}
+
+html {
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
 body {
 	margin-top: 0px;
 	padding: 0px;
 	//height: 2000px;
     background-color: #eaeaea;
+    //height: 100vh;
 }
 a:visited {
 	color: grey;
@@ -28,10 +39,12 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 325px;
-    max-width: 960px;
+    max-width: 1020px; //sets size of page, nav-container needs to be set seperately if position is fixed
     box-shadow: -10px 10px 5px ;
     margin-bottom: 50px;
     padding-top: 50px;
+    height: 100%;
+    border: 1px solid black;
 }
 
 /*
@@ -88,28 +101,30 @@ p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.icon:hover {
+    color: white;
+}
 
 .nav-selected {
-	border-radius: 10px;
-	background-color: #ffffff;
+	//border-radius: 10px;
+	//background-color: #ffffff;
+    text-decoration: underline;
 }
 .nav-selected a:hover{
 	color: #000000;
 }
 #nav-container {
+    max-width: 1020px;
 	position: fixed;
 	height: 50px;
 	top: 0;
 	width: 100%;
-	max-width: 960px;
 	background-color: Black;
 	border-bottom: 1px solid white;
 }
 #nav-bar {
-	
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 960px;
 	height: 50px;
 	width: 100%;
 	z-index: 100;
@@ -156,6 +171,7 @@ p {
 	padding: 0px;
 }
 #large-header {
+    font-family: "Texgyrebonum-reg";
 	font-size: 5em;
 	margin: 0px;
 	padding: 0px;
@@ -198,17 +214,34 @@ p {
 	text-decoration: none;
 }
 
+
+
 /*
 ##################################################
 # Main
 ##################################################
 */
 
+#contact-info {
+    float: left;
+    padding: 20px;
+}
+#contact-info p {
+    color: black;    
+}
+#contact-pic {
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+#contact-note{
+    clear: both;
+}
+
 #main-body {
     //padding-top: 50px;
 }
 #resume-container {
-	max-width: 960px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -217,7 +250,6 @@ p {
 #resume-img {
 	width: 100%;
 	border: 1px solid black;
-	padding: 10px;
 }
 
 /*
