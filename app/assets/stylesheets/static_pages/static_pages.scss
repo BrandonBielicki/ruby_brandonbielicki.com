@@ -1,11 +1,7 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-@font-face {
-  font-family: 'Texgyrebonum-reg';
-  src: asset_url("texgyrebonum-regular.otf") format("truetype");
-}
+// You can use Sass (SCSS) here: http://sass-lang.com/
 
 html {
     min-height:100%;/* make sure it is at least as tall as the viewport */
@@ -36,6 +32,7 @@ p {
 	-webkit-margin-end: 0px;
 }
 #container {
+    background-color: white;
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 325px;
@@ -163,13 +160,13 @@ p {
 
 #small-header {
 	font-size: 1.5em;
-	font-style: italic;
+    font-family: "Texgyrebonum-italic";
 	margin: 0px;
 	padding: 0px;
     color: white;
 }
 #large-header {
-    font-family: "Texgyrebonum-reg";
+    font-family: "Texgyrebonum";
 	font-size: 5em;
 	margin: 0px;
 	padding: 0px;
@@ -192,18 +189,38 @@ p {
 # Main
 ##################################################
 */
-
+#contact-container-top {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
 #contact-info {
+    width: 70%;
     float: left;
-    padding: 20px;
+    padding-left: 50px;
+}
+#contact-info h1 {
+    margin: 0px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #4a4a4a;
 }
 #contact-info p {
-    color: black;    
+    margin: 5px;  
+    color: black;
+    font-size: 1.25em;
+    display: inline-block;
+    color: #4a4a4a;
 }
 #contact-pic {
-    float: right;
+    width: 30%;
     height: 100%;
-    padding: 20px;
+    float: left;
+    padding-right: 50px;
+}
+#contact-pic img {
+    height: 100%;
+    float: right;
 }
 #contact-note{
     clear: both;

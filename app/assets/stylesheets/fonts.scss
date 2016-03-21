@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Texgyrebonum';
+  src: asset_url("texgyrebonum-regular.otf") format("truetype");
+}
+@font-face {
+  font-family: 'Texgyrebonum-italic';
+  src: asset_url("texgyrebonum-italic.otf") format("truetype");
+}
+@font-face {
+  font-family: 'LeagueGothic';
+  src: asset_url("LeagueGothic-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: 'PTSerif';
+  src: asset_url("PTF55F.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Ubuntu';
+  src: asset_url("Ubuntu-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Ubuntu-light';
+  src: asset_url("Ubuntu-L.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Ubuntu-medium';
+  src: asset_url("Ubuntu-M.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Ubuntu-Mono';
+  src: asset_url("UbuntuMono-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Ubuntu-Mono-Bold';
+  src: asset_url("UbuntuMono-B.ttf") format("truetype");
+}
+
+.ubuntu-med {
+    font-family: "Ubuntu-medium";
+}
+.ubuntu {
+    font-family: "Ubuntu";
+}
+.ubuntu-mono {
+    font-family: "Ubuntu-Mono";
+}
+.ubuntu-mono-bold {
+    font-family: "Ubuntu-Mono-Bold";
+}
+
+.underlined {
+    border-bottom: 1px solid rgba(74,74,74,.2);
+}

@@ -8,16 +8,18 @@
 
 <% content_for :main do %>
 
-<div id="contact-info">
-  <h1>Contact Information</h1>
-  <p>Brandon Bielicki</p>
-  <p>3636 Coleman Rd</p>
-  <p>East Lansing, MI 48823</p>
-  <p>248.877.3544</p>
-</div>
-  
-<div id="contact-pic">
-  <img src="<%= asset_url("matrix.jpg") %>">
+<div id="contact-container-top">
+    <div id="contact-info">
+      <h1 class="ubuntu">CONTACT INFORMATION</h1><br>
+      <p class="ubuntu-med">Brandon Bielicki</p><br>
+      <p class="ubuntu">East Lansing, MI 48823</p><br>
+      <a href="tel:248-877-3544"><p class="ubuntu underlined">248.877.3544</p></a><br>
+      <a href="mailto:brandonbielicki@gmail.com"><p class="ubuntu underlined">BrandonBielicki@gmail.com</p></a>
+    </div>
+      
+    <div id="contact-pic">
+      <img src="<%= asset_url("matrix.jpg") %>">
+    </div>
 </div>
 
 <div id="contact-note">
