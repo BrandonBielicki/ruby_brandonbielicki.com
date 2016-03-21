@@ -21,6 +21,9 @@
     color: black;
     text-decoration: none;
 }
+.hollow-button :hover > p {
+    color: black;
+}
 .hollow-button :visited {
     text-decoration: none;
 }

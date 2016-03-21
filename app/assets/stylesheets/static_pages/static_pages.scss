@@ -154,9 +154,6 @@ p {
 	background-position: center;
 }
 
-#top-content p,h1{
-	color: white;
-}
 #top-content {
 	padding-top: 40px;
 	width: 100%;
@@ -169,12 +166,14 @@ p {
 	font-style: italic;
 	margin: 0px;
 	padding: 0px;
+    color: white;
 }
 #large-header {
     font-family: "Texgyrebonum-reg";
 	font-size: 5em;
 	margin: 0px;
 	padding: 0px;
+    color: white;
 }
 
 #header-buttons {
@@ -184,34 +183,6 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-}
-#header-buttons > ul {
-	padding: 0px;
-	display: inline;
-	list-style-type: none;
-}
-#header-buttons  li {
-	display: inline-block;
-	margin-right: 10px;
-	margin-left: 10px;
-}
-#header-buttons  div {
-	height: 50px;
-	width: 100px;
-	border: 2px solid white;
-	transition-property: background-color;
-	transition-duration: .1s;
-}
-#header-buttons div:hover {
-	transition-property: background-color;
-	transition-duration: .1s;
-	background-color: white;
-}
-#header-buttons div:hover p {
-	color: black;
-}
-#header-buttons > ul > li > a:visited {
-	text-decoration: none;
 }
 
 

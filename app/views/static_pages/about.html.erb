@@ -8,14 +8,8 @@
           <h1 id="large-header">Brandon Bielicki</h1>
           <p id="small-header">Programmer, Web Developer</p>
           <div id="header-buttons">
-              <ul>
-                  <li>
-                      <%= link_to '<div><p>CONTACT</p></div>'.html_safe, contact_path %>
-                  </li>
-                  <li>
-                      <%= link_to '<div><p>RESUME</p></div>'.html_safe, resume_path %>
-                  </li>
-              </ul>
+              <%= link_to '<p>CONTACT</p>'.html_safe, contact_path, {:class=>"hollow-button"} %>
+              <%= link_to '<p>RESUME</p>'.html_safe, resume_path, {:class=>"hollow-button"} %>
           </div>
       </div>
   </div>
