@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/contact' => 'static_pages#contact'
   get '/resume' => 'static_pages#resume'
   get '/cata' => 'static_pages#cata'
+  get '/download' => 'static_pages#download'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,0 +1,90 @@
+/*
+##################################################
+# Nav Bar
+##################################################
+*/
+
+#social {
+	float: left;
+	display: inline;
+	line-height:50px;
+	padding-left: 0px;
+	list-style-type: none;
+	margin: 0px;
+	margin-right: 10px;
+}
+#social li {
+	display: inline;
+	font-size: 30px;
+}
+#nav-menu {
+	float: right;
+	list-style-type: none;
+}
+#nav-menu li {
+	display: inline;
+}
+
+.nav-right {
+	font-size: 20px;
+	margin: 0px;
+	float: right;
+	line-height: 50px; 
+	padding-right: 15px;
+	padding-left: 15px;
+	/*visibility: hidden; */
+}
+#menu-icon {
+	visibility: hidden;
+	font-size: 30px;
+	margin: 0px;
+	line-height:50px;
+
+}
+.nav-unselected:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.icon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.icon:hover {
+    color: white;
+}
+
+.nav-selected {
+	//border-radius: 10px;
+	//background-color: #ffffff;
+    text-decoration: underline;
+}
+.nav-selected a:hover{
+	color: #000000;
+}
+#nav-container {
+    max-width: 1020px;
+	position: fixed;
+	height: 50px;
+	top: 0;
+	width: 100%;
+	background-color: Black;
+	border-bottom: 1px solid white;
+}
+#nav-bar {
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 100%;
+	z-index: 100;
+	min-width: 310px;
+}
+
+#home {
+	font-size: 26px;
+	margin: 0px;
+	float: left;
+	line-height: 50px; 
+	padding-left: 10px;
+	padding-right: 10px;
+}

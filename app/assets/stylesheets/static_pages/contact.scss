@@ -1,0 +1,47 @@
+#contact-container-top {
+    width: 100%;
+    height: 250px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+#contact-info {
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding-left: 50px;
+}
+#contact-info-title h1 {
+    margin: 0px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #4a4a4a;
+}
+#contact-info-content p {
+    margin: 2px;
+    color: black;
+    font-size: 1.25em;
+    display: inline-block;
+    color: #4a4a4a;
+}
+#contact-info-resume {
+    margin-top: 25px;
+}
+#contact-info-resume p {
+    margin: 0px;
+    padding: 5px 20px;
+}
+#contact-pic {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding-right: 50px;
+}
+#contact-pic img {
+    height: 100%;
+    float: right;
+}
+#contact-note{
+    clear: both;
+    margin: 0px 50px
+}

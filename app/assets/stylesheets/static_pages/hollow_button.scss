@@ -1,4 +1,4 @@
-.hollow-button {
+.hollow-button-white {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
@@ -8,22 +8,41 @@
 	transition-property: background-color;
 	transition-duration: .1s;
 }
-.hollow-button p {
+.hollow-button-white p {
     text-align: center;
     line-height: 46px;
     margin: 0px;
     color: white;
 }
-.hollow-button :hover {
+.hollow-button-white :hover {
 	transition-property: background-color;
 	transition-duration: .1s;
 	background-color: white;
     color: black;
     text-decoration: none;
 }
-.hollow-button :hover > p {
+.hollow-button-white :visited {
+    text-decoration: none;
+}
+
+.hollow-button-black {
+    display: inline-block;
+	border: 2px solid black;
+	transition-property: background-color;
+	transition-duration: .1s;
+}
+.hollow-button-black p {
+    text-align: center;
+    margin: 2px;
     color: black;
 }
-.hollow-button :visited {
+.hollow-button-black :hover {
+	transition-property: background-color;
+	transition-duration: .1s;
+	background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.hollow-button-black :visited p {
     text-decoration: none;
 }

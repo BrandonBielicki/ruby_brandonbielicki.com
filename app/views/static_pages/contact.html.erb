@@ -10,11 +10,18 @@
 
 <div id="contact-container-top">
     <div id="contact-info">
-      <h1 class="ubuntu">CONTACT INFORMATION</h1><br>
-      <p class="ubuntu-med">Brandon Bielicki</p><br>
-      <p class="ubuntu">East Lansing, MI 48823</p><br>
-      <a href="tel:248-877-3544"><p class="ubuntu underlined">248.877.3544</p></a><br>
-      <a href="mailto:brandonbielicki@gmail.com"><p class="ubuntu underlined">BrandonBielicki@gmail.com</p></a>
+        <div id="contact-info-title">
+            <h1 class="ubuntu">CONTACT INFORMATION</h1><br>
+        </div>
+        <div id="contact-info-content">
+            <p class="ubuntu-med">Brandon Bielicki</p><br>
+            <p class="ubuntu">East Lansing, MI 48823</p><br>
+            <a href="tel:248-877-3544"><p class="ubuntu underlined">248.877.3544</p></a><br>
+            <a href="mailto:brandonbielicki@gmail.com"><p class="ubuntu underlined">BrandonBielicki@gmail.com</p></a>
+        </div>
+        <div id="contact-info-resume">
+            <%= link_to '<p>Download Resume</p>'.html_safe, download_path, {:class=>"hollow-button-black"} %>
+        </div>
     </div>
       
     <div id="contact-pic">

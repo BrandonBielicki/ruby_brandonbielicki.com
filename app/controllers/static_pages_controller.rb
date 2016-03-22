@@ -10,4 +10,12 @@ class StaticPagesController < ApplicationController
 
   def cata
   end
+  
+  def download
+    send_file(
+      Rails.root.join('app' , 'assets', 'resources', 'BrandonBielickiResume.pdf'),
+      filename: "BrandonBielickiResume.pdf",
+      type: "application/pdf"
+    )
+  end
 end
