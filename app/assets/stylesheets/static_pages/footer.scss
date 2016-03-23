@@ -27,7 +27,13 @@
 	display: inline;
 	font-size: 30px;
 }
-
+.footer-icon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer-icon:hover {
+    color: white;
+}
 #footer p {
 	margin: 0px;
 	padding: 0px;
@@ -49,5 +55,16 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 2000px)
 only screen and (        min-device-pixel-ratio: 2)      and (max-width: 2000px),
 only screen and (                min-resolution: 192dpi) and (max-width: 2000px),
 only screen and (                min-resolution: 2dppx)  and (max-width: 1000px) {
-        
+    .footer-icon {
+        font-size: 90px;
+        margin: 0px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #footer-social {
+        height: 150px;
+    }
+    #footer-social ul {
+        line-height: 150px;
+    }
 }
