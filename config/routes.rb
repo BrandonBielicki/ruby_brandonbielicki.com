@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/about' => 'static_pages#about'
   get '/contact' => 'static_pages#contact'
   get '/resume' => 'static_pages#resume'
+  get '/cata/:id', to: 'static_pages#cata'
   get '/cata' => 'static_pages#cata'
   get '/download' => 'static_pages#download'
 

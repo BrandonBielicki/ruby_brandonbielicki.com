@@ -1,13 +1,13 @@
 <% content_for :main do %>
-    <div id="nav-bar">
-      <div id="timer-container">
+    <div id="timer-container">
+        <p>Bus # : </p>
+        <input id="bus-select" type="number" value="<%= params[:id] %>">
         <p id="timer"></p>
-      </div>
     </div>
     
     <div id="map"> </div>
     
     <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVATUIwaa1i_ZdBwp05D1u06d0Qlc1-p4&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVATUIwaa1i_ZdBwp05D1u06d0Qlc1-p4&callback=initMap">
     </script>
 <% end %>
