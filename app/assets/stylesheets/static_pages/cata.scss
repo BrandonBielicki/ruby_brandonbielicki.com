@@ -42,5 +42,19 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 2000px)
 only screen and (        min-device-pixel-ratio: 2)      and (max-width: 2000px),
 only screen and (                min-resolution: 192dpi) and (max-width: 2000px),
 only screen and (                min-resolution: 2dppx)  and (max-width: 1000px) {
-    
+    #timer-container {
+        width: 400px;
+        padding: 25px;
+    }
+    #timer-container input {
+        width: 100px;
+        height: 75px;
+        line-height: 75px;
+        font-size: 3em;
+    }
+    #timer-container p {
+        font-size: 3em;
+        line-height: 75px;
+    }
+
 }
