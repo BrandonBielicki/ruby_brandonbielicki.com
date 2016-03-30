@@ -38,7 +38,7 @@ only screen and (        min-device-pixel-ratio: 2)      and (max-width: 2000px)
 only screen and (                min-resolution: 192dpi) and (max-width: 2000px),
 only screen and (                min-resolution: 2dppx)  and (max-width: 1000px) {
     #container {
-        padding-top: 200px;
+        padding-top: 150px;
         box-shadow: 0px 0px 0px ;
     }
 }

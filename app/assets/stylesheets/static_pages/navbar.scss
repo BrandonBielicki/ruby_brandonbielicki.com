@@ -129,8 +129,8 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 1000px)
 		visibility: visible;
 		float: right;
 		margin-right: 15px;
-        font-size: 120px; 
-        line-height: 200px;
+        font-size: 100px; 
+        line-height: 150px;
 	}
     
     .nav-icon {
@@ -141,20 +141,20 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 1000px)
     }
     
     #nav-container {
-        height: 200px;
+        height: 150px;
     }
     
     #nav-bar {
-        height: 200px;
+        height: 150px;
     }
     
     #home {
-        line-height: 200px;
+        line-height: 150px;
         font-size: 70px;
     }
     #social {
         float: left;
-        line-height: 200px;   
+        line-height: 150px;   
     }
 	
 	.nav-right {
