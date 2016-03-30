@@ -15,3 +15,5 @@
 /log/*
 !/log/.keep
 /tmp
+
+app/assets/stylesheets/static_pages/.sass-cache/
